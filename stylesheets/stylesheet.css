@@ -1,0 +1,212 @@
+/*stylesheet.css*/
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.hero {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+    
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Text styles */
+    text-align: center;
+    color: white; /* ADD THIS LINE */
+    
+    /* Background styles */
+    background-image: url('resources/heroimage.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero h1 {
+    /* Text styles */
+    font-size: 5em;
+    
+    /* Margins */
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+.hero .btn{
+    /* Positioning and sizing */
+    display: block;
+    width: 200px;
+    
+    /* Padding and margins */
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+        -webkit-transition-duration: 0.5s; 
+  transition-duration: 0.5s;
+    
+    /* Text styles */
+    color: white; /* CHANGE THIS LINE */
+    text-decoration: none;
+    font-size: 1.5em;
+    
+    /* Border styles */
+    border: 3px solid white; /* CHANGE THIS LINE */
+    border-radius: 20px;
+}
+
+.btn:hover{
+background-color: #111;
+-webkit-transition-duration: 1s; 
+  transition-duration: 1s;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #666;
+}
+
+.subtitle{
+  padding-left: 300px;
+  text-align: center;
+  font-family: "Impact"
+}
+
+#cppimg {
+padding-left: 20px;
+padding-right: 20px;
+height: auto;
+float: left;
+
+}
+
+
+
+.sector1 {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+    
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Text styles */
+    text-align: center;
+    color: white; /* ADD THIS LINE */
+
+    
+    /* Background styles */
+    background-image: url('resources/ablemainbit.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.sector1 h1
+{
+ font-size: 3.5em;
+    
+    /* Margins */
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+.sector2 {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Text styles */
+    text-align: center;
+    color: white; 
+
+    
+    /* Background styles */
+    background-image: url('resources/cppsector.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.sector2 h1
+{
+ font-size: 3.5em;
+    
+    /* Margins */
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+#welcomeparagraph{
+font-family: "Lucida Console";
+margin-right: 50px;
+position: relative;
+}
+#footer{
+padding-top: 200px;
+padding-left: 50px;
+background-size: cover;
+display: bottom;
+}
+#footer-text{
+color: thistle;
+}
+#main{
+background-color: lavenderblush;
+}
+
+.button{
+    display: block;
+    width: 150px;
+    /* Padding and margins */
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lavenderblush;
+    -webkit-transition-duration: 0.5s; 
+  transition-duration: 0.5s;
+    /* Text styles */
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+    
+    /* Border styles */
+    border: 3px solid black; /* CHANGE THIS LINE */
+    border-radius: 20px;
+}
+
+.button:hover{
+background-color: lightslategray;
+-webkit-transition-duration: 0.5s; 
+  transition-duration: 0.5s;
+}
+

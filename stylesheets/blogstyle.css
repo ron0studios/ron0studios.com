@@ -1,0 +1,119 @@
+/* CSS Document */
+
+body{
+padding: 0px;
+margin: 0px;
+background-color: #ffffc2;
+    font-family: sans-serif;
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #666;
+}
+
+
+header{
+background-image: url(resources/cppsector.png);
+margin:0px;
+padding:30px;
+
+}
+
+
+#title1{
+font-size: 4em;
+padding-top: 5px;
+color: white;
+font-family: Helvetica;
+}
+#title2{
+color: white;
+padding-bottom: 10px;
+font-family: Helvetica;
+}
+
+.post{
+overflow: auto;
+}
+
+.post img{
+float:left;
+padding-right: 10px;
+}
+
+.post p{
+padding-right: 10px;
+
+}
+
+.post h1{
+text-align: center;
+font-family: Trebuchet MS;
+font-size: 2em;
+}
+
+.post img {
+
+padding-bottom: 1em;
+padding-left: 1em;
+}
+
+.postbutton{
+
+  background-color: #4CAF50;
+  -webkit-transition-duration: 0.5s; 
+  transition-duration: 0.5s; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  
+
+}
+
+.postbutton:hover{
+background-color: lightslategray;
+-webkit-transition-duration: 0.5s; 
+  transition-duration: 0.5s;
+}
+
+
+
+/*SPECIFIC POST BACKGROUNDS!!*/
+
+#post1{
+background-color: rgb(183, 202, 232);
+}
+#post2{
+background-color: rgb(218, 200, 247);
+}
+#contact1{
+background-color: rgb(246, 255, 0);
+}
+#contact2{
+background-color: rgb(102, 255, 0);
+}

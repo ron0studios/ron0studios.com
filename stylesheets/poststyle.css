@@ -1,0 +1,153 @@
+/* CSS Document */
+
+
+body{
+padding: 0px;
+margin: 0px;
+background-color: rgb(183, 202, 232);
+    font-family: sans-serif;
+
+}
+
+:root {
+ --RIGHT_PANEL_WIDTH: 500px;
+ --ROT_AMOUNT: 0deg;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #666;
+}
+
+
+header{
+background-image: url(resources/news/brillyonbike.jpg);
+margin:0px;
+padding:30px;
+}       
+
+#title1{
+font-size: 4em;
+padding-top: 5px;
+color: white;
+font-family: Helvetica;
+}
+#title2{
+color: white;
+padding-bottom: 10px;
+font-family: Helvetica;
+}
+
+.postimage img{
+padding-left: 30px;
+padding-top: 30px;
+padding-right: 30px;
+padding-bottom: 20px;
+
+}
+
+.postimage h1{
+font-family: helvetica;
+}
+
+.postimage p{
+color: grey;
+}
+
+article{
+padding-left: 20px;
+font-family: Bahnschrift;
+font-size: 16px;
+}
+
+.button{
+    display: block;
+    width: 150px;
+    /* Padding and margins */
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lavenderblush;
+    -webkit-transition-duration: 0.5s; 
+  transition-duration: 0.5s;
+    /* Text styles */
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+    
+    /* Border styles */
+    border: 3px solid black; /* CHANGE THIS LINE */
+    border-radius: 20px;
+}
+
+.button:hover{
+background-color: lightslategray;
+-webkit-transition-duration: 0.5s; 
+  transition-duration: 0.5s;
+}
+
+/* The side navigation menu */
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: var(--RIGHT_PANEL_WIDTH);
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  right: 1;
+  transition: 0.5s;
+}
+
+/* Sidebar links */
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.content {
+	padding-right: var(--RIGHT_PANEL_WIDTH);
+	  transition-duration: 0.5s;
+}
+
+#subimg{
+	width: 50%;
+	height: auto;
+	padding: 10px;
+}
+
+.collapse-button{
+	  display: block;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px 15px;
+  border: none;
+  color: white;
+  background-color: #333;
+  transform: rotate(var(--ROT_AMOUNT));
+  transition-duration: 0.5s;
+}
