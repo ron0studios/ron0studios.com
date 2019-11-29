@@ -115,22 +115,18 @@ background-color: lightslategray;
   width: var(--RIGHT_PANEL_WIDTH);
   background-color: #f1f1f1;
   height: 100%;
-  overflow: auto;
+  position: absolute;
   right: 1;
   transition: 0.5s;
 }
 
-/* Sidebar links */
-.sidebar a {
-  display: block;
-  color: black;
-  padding: 16px;
-  text-decoration: none;
-}
 
 .content {
 	padding-right: var(--RIGHT_PANEL_WIDTH);
 	  transition-duration: 0.5s;
+}
+
+.super {
     position: relative;
 }
 
