@@ -114,7 +114,6 @@ background-color: lightslategray;
   padding: 0;
   width: var(--RIGHT_PANEL_WIDTH);
   background-color: #f1f1f1;
-  position: fixed;
   height: 100%;
   overflow: auto;
   right: 1;
@@ -133,6 +132,7 @@ background-color: lightslategray;
 	padding-right: var(--RIGHT_PANEL_WIDTH);
 	  transition-duration: 0.5s;
     position: relative;
+    z-index: -1;
 }
 
 #subimg{
