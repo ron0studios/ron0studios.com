@@ -10,8 +10,8 @@ background-color: rgb(183, 202, 232);
 }
 
 :root {
- --RIGHT_PANEL_WIDTH: 0px;
- --ROT_AMOUNT: 0deg;
+ --RIGHT_PANEL_WIDTH: 500px;
+ --ROT_AMOUNT: 90deg;
 }
 
 ul {
