@@ -120,6 +120,11 @@ background-color: lightslategray;
   transition: 0.5s;
 }
 
+.comments {
+
+  padding-top: 10px;
+  padding-left: 10px;
+}
 
 .content {
 	padding-right: var(--RIGHT_PANEL_WIDTH);
