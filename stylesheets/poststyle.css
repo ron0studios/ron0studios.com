@@ -119,6 +119,7 @@ background-color: lightslategray;
   position: fixed;
   right: 1;
   overflow: scroll;
+  overflow: hidden;
   transition: 0.5s;
 }
 
