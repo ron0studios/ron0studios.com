@@ -118,7 +118,6 @@ background-color: lightslategray;
   overflow: auto;
   right: 1;
   transition: 0.5s;
-  z-index: 1;
 }
 
 /* Sidebar links */
