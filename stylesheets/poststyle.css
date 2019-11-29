@@ -118,13 +118,13 @@ background-color: lightslategray;
   position: absolute;
   position: fixed;
   right: 1;
+  overflow: scroll;
   transition: 0.5s;
 }
 
 .comments {
   padding-top: 10px;
   padding-left: 10px;
-  overflow: scroll;
 }
 
 .content {
