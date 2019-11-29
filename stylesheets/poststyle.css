@@ -132,6 +132,7 @@ background-color: lightslategray;
 .content {
 	padding-right: var(--RIGHT_PANEL_WIDTH);
 	  transition-duration: 0.5s;
+    position: relative;
 }
 
 #subimg{
@@ -150,4 +151,8 @@ background-color: lightslategray;
   background-color: #333;
   transform: rotate(var(--ROT_AMOUNT));
   transition-duration: 0.5s;
+  position: absolute;
+  top: 1;
+  right: 1;
+  margin-right: var(--RIGHT_PANEL_WIDTH);
 }
