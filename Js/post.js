@@ -10,7 +10,7 @@ function openNav() {
 }
 
 function buttonclick() {
-	if(getComputedStyle(document.documentElement).getPropertyValue('--RIGHT_PANEL_WIDTH') == '0px')
+	if(getComputedStyle(document.documentElement).getPropertyValue('--ROT_AMOUNT') == '0deg')
 	{
 		openNav();
 	}
