@@ -116,8 +116,17 @@ background-color: lightslategray;
   background-color: #f1f1f1;
   position: fixed;
   height: 100%;
+  overflow: auto;
   right: 1;
   transition: 0.5s;
+}
+
+/* Sidebar links */
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
 }
 
 .content {
