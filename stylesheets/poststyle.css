@@ -118,6 +118,7 @@ background-color: lightslategray;
   overflow: auto;
   right: 1;
   transition: 0.5s;
+  z-index: 1;
 }
 
 /* Sidebar links */
@@ -132,7 +133,6 @@ background-color: lightslategray;
 	padding-right: var(--RIGHT_PANEL_WIDTH);
 	  transition-duration: 0.5s;
     position: relative;
-    z-index: -1;
 }
 
 #subimg{
